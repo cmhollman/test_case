@@ -1,4 +1,4 @@
-![Header](https://github.com/cmhollman/test_case/blob/main/Data/food_image.jpeg)
+![Header](https://github.com/cmhollman/test_case/blob/main/Data/food_image.jpg)
 
 
 
