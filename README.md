@@ -10,18 +10,27 @@ Thank you for the opportunity to complete this project. Please let me know if yo
 
 ## Questions
 -**What is the business objective you are looking to solve for? Specifically, what decisions are you going to inform?**
-For the sake of simplicity, a quick look at performace vs. USF's main competitor. This will help identify divisions and segments where USF is being outperformed by their primary competition and inform where to focus sales efforts and/or increase presence.
+For the sake of simplicity, a quick look at USF Daily Delivery. This will help identify divisions and segments where the Daily Delivery
+service is being used most frequently.
 
 -**Based on your exploration of the data, what insights do you have about our customers?**
-Overall USF is outperforming primary competetion in every account category. The vast majority of weekly spending comes from Independent Restaurant ($6,845,534) and Hospitality ($1,265,565) accounts. USF accounts for 71.63% of reported weekly sales to Independent Restaurants and 77.22% of reported weekly sales to Hospitality accounts. The segment where USF perfmorms most poorly is among National Chains, where they account for 60.56% of weekly reported sales as compared to 22.65% for the primary competitor. 
+Overall USF is outperforming primary competetion in every account category. The vast majority of weekly spending comes from Independent
+Restaurant ($6,845,534) and Hospitality ($1,265,565) accounts. USF accounts for 71.63% of reported weekly sales to Independent Restaurants
+and 77.22% of reported weekly sales to Hospitality accounts. Independent Restaurants spend $5,087,630 via Daily Delivery service. The
+Hospitality segment spends $1,014,461 via Daily Delivery
 
--**Develop a visualization tool or output that can be used to support the business decisions. What recommendations can you make to the business?**
-A Tableau dashboard summarizing this information is available [Here](https://public.tableau.com/shared/RND56DCXG?:display_count=n&:origin=viz_share_link). Given the significant disparity in the competition's success among National Chains, a review should be done of why that is occurring and whether USF has the ability or desire to improve sales among these account types. In particular, the main competitor performs best in division code 14  
+-**Develop a visualization tool or output that can be used to support the business decisions. What recommendations can you make to the
+business?**
+A Tableau dashboard summarizing this information is available [Here](https://public.tableau.com/views/USFTestCase/Dashboard1?:language=en
+US&publish=yes&:display_count=n&:origin=viz_share_link). Given the high usage of Daily Delivery Service among the highest spending segments
+it would be prudent to continue to offer those options to accounts within that category. The Div Number with the highest Daily Delivery
+usage among Independent Restauants is 10. Notably, both Hospitality and Independent Restaunts ranked later order cutoff times as most
+important to them, so perhaps extending cutoff times would suffice in place of daily delivery service.
 
 -**How would you partner with the broader analytics team (including data scientists) to enhance this analysis?**
-It would be useful to look at historical sales data in these devisions and market segments to identify whether USF is losing market share to primary competition these specific areas. 
-
- 
+It would be useful to look at time stamped historical sales data in these divisions and market segments to identify whether the availability
+to order via Daily Delivery has influenced sales totals in any way. If a time series decomposition reveals relativley flat total sales
+following the introduction of Daily Delivery then it may not be worth the added cost. 
 
 ## Link Summary
 
